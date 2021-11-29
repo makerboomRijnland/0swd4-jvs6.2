@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JVS6.2 - String &amp; Regular Expressions</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <article>
+        <h1>String</h1>
+        <section>
+            <h2>String.length</h2>
+            <p>
+                A: <input type="text" id="string-a" value="Hallo klas">
+            </p>
+            <p>
+                A.length:<br>
+                <span id="string-a-result">?</span>
+            </p>
+            <button id="string-a-action">Bereken lengte</button>
+        </section>
+
+        <section>
+            <h2>String.charAt(index)</h2>
+            <p>
+                B: <input type="text" id="string-b" value="Lorem ipsum"><br>
+                index: <input type="text" id="string-b-index" value="4">
+            </p>
+            <p>
+                B.charAt(index):<br>
+                <span id="string-b-result">?</span>
+            </p>
+            <button id="string-b-action">Toon letter</button>
+        </section>
+        
+        <section>
+            <h2>String.padEnd(padLength, padString)</h2>
+            <p>
+                C: <input type="text" id="string-c" value="Lorem ipsum"><br>
+                padLength: <input type="number" id="string-c-padLength" value="13"><br>
+                padString: <input type="text" id="string-c-padString" value=".">
+            </p>
+            <p>
+                B.padEnd(padLength, padString):<br>
+                <span id="string-c-result">?</span>
+            </p>
+            <button id="string-c-action">Toon padded</button>
+        </section>
+    </article>
+</body>
+</html>
